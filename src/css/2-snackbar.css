@@ -1,0 +1,102 @@
+/* =========================
+   Layout
+========================= */
+
+.form {
+  max-width: 360px;
+  padding: 36px;
+  margin: 0 auto;
+  color: #2e2f42;
+}
+
+/* =========================
+   Labels
+========================= */
+
+.form > label {
+  display: block;
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+}
+
+/* =========================
+   Delay input
+========================= */
+
+.delay-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.delay-input:hover {
+  border-color: #000;
+}
+
+/* =========================
+   Fieldset (radio buttons)
+========================= */
+
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+fieldset:hover {
+  border-color: #000;
+}
+
+legend {
+  padding: 0 8px;
+  letter-spacing: 0.04em;
+}
+
+/* Radio buttons */
+input[type='radio'] {
+  accent-color: #4e75ff;
+}
+
+/* =========================
+   Submit button
+========================= */
+
+button[type='submit'] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type='submit']:hover,
+button[type='submit']:focus {
+  background-color: #6c8cff;
+}
+
+/* =========================
+   iziToast custom icons
+========================= */
+
+.iziToast .ico-info {
+  background: url('../img/toast-bell.svg') no-repeat center / 16px !important;
+}
+
+.iziToast .ico-success {
+  background: url('../img/toast-check-mark.svg') no-repeat center / 16px !important;
+}
+
+.iziToast .ico-error {
+  background: url('../img/toast-error.svg') no-repeat center / 16px !important;
+}
